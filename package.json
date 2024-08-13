@@ -1,0 +1,17 @@
+{
+    "name": "svg-logo-creator",
+    "version": "1.0.0",
+    "description": "command line application that allows a user to input details to generate a logo",
+    "main": "index.js",
+
+    "scripts": {
+        "start": "node index.js",
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "",
+    "dependencies": {
+    "inquirer": "8.2.4"
+    }
+}
