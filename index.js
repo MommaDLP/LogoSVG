@@ -32,7 +32,7 @@ const questions = [
     {
         type: "input",
         message: "Please enter in the color of your logo shape.",
-        name: "shapecolor"
+        name: "shapeColor"
     }
 ];
 
@@ -51,7 +51,7 @@ function init () {
     inquirer
         .prompt(questions).then((data) => {
 
-            const {text, textcolor, shape, shapecolor} = data
+            const {text, textcolor, shape, shapeColor} = data
             const svg = new SVG();
             let shapeObject;
             if (shape === "Triangle") {
